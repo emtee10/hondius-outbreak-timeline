@@ -1,0 +1,22 @@
+[
+  {
+    "title": "2025-03-10",
+    "cardTitle": "Passenger develops symptoms",
+    "cardSubtitle": "MV Hondius outbreak timeline",
+    "cardDetailedText": "Brief factual description of the event. Include uncertainty if needed.",
+    "sourceUrl": "https://example.com/source",
+    "sourceLabel": "Source name",
+    "category": "case",
+    "location": "MV Hondius"
+  },
+  {
+    "title": "2025-03-14",
+    "cardTitle": "Public health notification issued",
+    "cardSubtitle": "Response milestone",
+    "cardDetailedText": "Description of what was announced, by whom, and why it mattered.",
+    "sourceUrl": "https://example.com/source-2",
+    "sourceLabel": "Public health notice",
+    "category": "response",
+    "location": "Port / jurisdiction"
+  }
+]
