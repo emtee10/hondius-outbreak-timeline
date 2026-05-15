@@ -15,13 +15,15 @@ export default function App() {
       })
       .then((data) => {
         const formatted = data.map((item) => ({
-          ...item,
+          title: item.title,
+          cardTitle: item.cardTitle,
+          cardSubtitle: item.cardSubtitle,
           cardDetailedText: [
             item.cardDetailedText,
             item.sourceUrl
               ? `Source: ${item.sourceLabel || item.sourceUrl} — ${item.sourceUrl}`
               : ""
-          ].filter(Boolean).join("\n\n")
+          ].filter(Boolean)
         }));
 
         setItems(formatted);
@@ -39,15 +41,14 @@ export default function App() {
         </p>
       </header>
 
-      <section className="timeline">
+      <section className="timeline-wrapper">
         <Chrono
           items={items}
-          mode="alternating"
-          enableSearch
-          useReadMore
+          mode="vertical"
+          disableToolbar
           layout={{
-            cardWidth: 450,
-            cardHeight: "auto"
+            cardWidth: 650,
+            cardHeight: 220
           }}
         />
       </section>
