@@ -6,10 +6,9 @@
   },
   "dependencies": {
     "@vitejs/plugin-react": "latest",
-    "vite": "latest",
     "react": "latest",
+    "react-chrono": "^3.3.3",
     "react-dom": "latest",
-    "react-chrono": "latest"
-  },
-  "devDependencies": {}
+    "vite": "latest"
+  }
 }
