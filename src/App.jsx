@@ -209,16 +209,28 @@ export default function App() {
                 </div>
               )}
 
-              {item.sourceUrl && (
-                <a
-                  className="source-link"
-                  href={item.sourceUrl}
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  {item.sourceLabel || "View source"}
-                </a>
+              {item.sources?.length > 0 && (
+                <div className="source-list">
+                  <span className="meta-label">Sources</span>
+
+                  <ul>
+                    {item.sources.map((source) => (
+                      <li key={source.url}>
+                        <a
+                          className="source-link"
+                          href={source.url}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          {source.label}
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
               )}
+
+
             </div>
           </article>
         ))}
