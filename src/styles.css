@@ -192,3 +192,15 @@ body {
   color: #0f172a;
   text-align: center;
 }
+
+.tag-filter {
+  margin-top: 16px;
+}
+
+.tag-toggle:hover {
+  background: #f1f5f9;
+}
+
+.tag-chip-row {
+  margin-top: 12px;
+}

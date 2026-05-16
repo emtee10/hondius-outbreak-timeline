@@ -7,6 +7,7 @@ export default function App() {
   const [searchText, setSearchText] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("all");
   const [selectedTags, setSelectedTags] = useState([]);
+  const [showTags, setShowTags] = useState(false);
 
   useEffect(() => {
     fetch(`${import.meta.env.BASE_URL}data/mv-hondius.json`)
@@ -107,40 +108,55 @@ export default function App() {
           </div>
         </div>
 
-        <div className="filter-group">
-          <span className="filter-label">Tags</span>
+        <div className="filter-group tag-filter">
+          <button
+            type="button"
+            className="filter-label"
+            onClick={() => setShowTags((current) => !current)}
+          >
+            <span>
+              Tags
+              {selectedTags.length > 0 && ` (${selectedTags.length} selected)`}
+            </span>
 
-          <div className="chip-row">
-            {tags.map((tag) => (
-              <button
-                key={tag}
-                type="button"
-                className={
-                  selectedTags.includes(tag)
-                    ? "chip chip-active"
-                    : "chip"
-                }
-                onClick={() => toggleTag(tag)}
-              >
-                {tag === "all" ? "All" : tag}
-              </button>
-            ))}
-          </div>
+            <span>{showTags ? "▲" : "▼"}</span>
+          </button>
+
+          {showTags && (
+            <div className="chip-row tag-chip-row">
+              {tags.map((tag) => (
+                <button
+                  key={tag}
+                  type="button"
+                  className={
+                    tag === "all"
+                      ? selectedTags.length === 0
+                        ? "chip chip-active"
+                        : "chip"
+                      : selectedTags.includes(tag)
+                        ? "chip chip-active"
+                        : "chip"
+                  }
+                  onClick={() => toggleTag(tag)}
+                >
+                  {tag === "all" ? "All tags" : tag}
+                </button>
+              ))}
+            </div>
+          )}
         </div>
 
         <button
           type="button"
+          className="filter-label"
           onClick={() => {
             setSearchText("");
             setSelectedCategory("all");
             setSelectedTags([]);
           }}
         >
-          Reset
+          Reset (Showing {filteredItems.length} of {rawItems.length} events)
         </button>
-        <p className="count">
-          Showing {filteredItems.length} of {rawItems.length} events
-        </p>
       </section>
 
       <section className="timeline-list">
