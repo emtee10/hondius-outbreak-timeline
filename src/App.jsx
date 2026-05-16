@@ -6,7 +6,7 @@ export default function App() {
   const [rawItems, setRawItems] = useState([]);
   const [searchText, setSearchText] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("all");
-  const [selectedTag, setSelectedTag] = useState("all");
+  const [selectedTags, setSelectedTags] = useState([]);
 
   useEffect(() => {
     fetch(`${import.meta.env.BASE_URL}data/mv-hondius.json`)
@@ -31,6 +31,19 @@ export default function App() {
     ];
   }, [rawItems]);
 
+  function toggleTag(tag) {
+    if (tag === "all") {
+      setSelectedTags([]);
+      return;
+    }
+
+    setSelectedTags((currentTags) =>
+      currentTags.includes(tag)
+        ? currentTags.filter((currentTag) => currentTag !== tag)
+        : [...currentTags, tag]
+    );
+  }
+
   const filteredItems = useMemo(() => {
     return rawItems.filter((item) => {
       const search = searchText.toLowerCase();
@@ -48,11 +61,12 @@ export default function App() {
         selectedCategory === "all" || item.category === selectedCategory;
 
       const matchesTag =
-        selectedTag === "all" || item.tags?.includes(selectedTag);
+        selectedTags.length === 0 ||
+        item.tags?.some((tag) => selectedTags.includes(tag));
 
       return matchesSearch && matchesCategory && matchesTag;
     });
-  }, [rawItems, searchText, selectedCategory, selectedTag]);
+  }, [rawItems, searchText, selectedCategory, selectedTags]);
 
   const chronoItems = filteredItems.map((item) => ({
     title: item.title,
@@ -102,11 +116,11 @@ export default function App() {
                 key={tag}
                 type="button"
                 className={
-                  selectedTag === tag
+                  selectedTags.includes(tag)
                     ? "chip chip-active"
                     : "chip"
                 }
-                onClick={() => setSelectedTag(tag)}
+                onClick={() => toggleTag(tag)}
               >
                 {tag === "all" ? "All" : tag}
               </button>
@@ -119,7 +133,7 @@ export default function App() {
           onClick={() => {
             setSearchText("");
             setSelectedCategory("all");
-            setSelectedTag("all");
+            setSelectedTags([]);
           }}
         >
           Reset
