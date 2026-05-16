@@ -62,10 +62,6 @@ export default function App() {
     <main className="app">
       <header className="header">
         <h1>MV Hondius Outbreak Timeline</h1>
-        <p>
-          A community-maintained timeline of key events, public health actions,
-          and source documents.
-        </p>
       </header>
 
       <section className="controls">
@@ -76,27 +72,47 @@ export default function App() {
           onChange={(event) => setSearchText(event.target.value)}
         />
 
-        <select
-          value={selectedCategory}
-          onChange={(event) => setSelectedCategory(event.target.value)}
-        >
-          {categories.map((category) => (
-            <option key={category} value={category}>
-              {category === "all" ? "All categories" : category}
-            </option>
-          ))}
-        </select>
+        <div className="filter-group">
+          <span className="filter-label">Category</span>
 
-        <select
-          value={selectedTag}
-          onChange={(event) => setSelectedTag(event.target.value)}
-        >
-          {tags.map((tag) => (
-            <option key={tag} value={tag}>
-              {tag === "all" ? "All tags" : tag}
-            </option>
-          ))}
-        </select>
+          <div className="chip-row">
+            {categories.map((category) => (
+              <button
+                key={category}
+                type="button"
+                className={
+                  selectedCategory === category
+                    ? "chip chip-active"
+                    : "chip"
+                }
+                onClick={() => setSelectedCategory(category)}
+              >
+                {category === "all" ? "All" : category}
+              </button>
+            ))}
+          </div>
+        </div>
+
+        <div className="filter-group">
+          <span className="filter-label">Tags</span>
+
+          <div className="chip-row">
+            {tags.map((tag) => (
+              <button
+                key={tag}
+                type="button"
+                className={
+                  selectedTag === tag
+                    ? "chip chip-active"
+                    : "chip"
+                }
+                onClick={() => setSelectedTag(tag)}
+              >
+                {tag === "all" ? "All" : tag}
+              </button>
+            ))}
+          </div>
+        </div>
 
         <button
           type="button"
@@ -108,11 +124,11 @@ export default function App() {
         >
           Reset
         </button>
+        <p className="count">
+          Showing {filteredItems.length} of {rawItems.length} events
+        </p>
       </section>
 
-      <p className="count">
-        Showing {filteredItems.length} of {rawItems.length} events
-      </p>
       <section className="timeline-list">
         {filteredItems.map((item) => (
           <article className="event-card" key={`${item.title}-${item.cardTitle}`}>
