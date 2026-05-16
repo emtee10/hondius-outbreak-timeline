@@ -1,6 +1,6 @@
 [
   {
-    "title": "2026-04-01",
+    "date": "2026-04-01",
     "cardTitle": "MV Hondius departs Ushuaia",
     "cardSubtitle": "",
     "cardDetailedText": "",
@@ -13,7 +13,7 @@
     "sourceUrl": "https://www.cdc.gov/han/php/notices/han00528.html"
   },
   {
-    "title": "2026-04-01",
+    "date": "2026-04-01",
     "cardTitle": "Case 1 boards MV Hondius",
     "cardSubtitle": "",
     "cardDetailedText": "Case #1, an adult male, boarded the ship on 1 April, after more than three months of travel in Argentina, Chile, and Uruguay. ",
@@ -27,7 +27,7 @@
     "sourceUrl": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON600"
   },
   {
-    "title": "2026-04-01",
+    "date": "2026-04-01",
     "cardTitle": "Case 2 boards MV Hondius",
     "cardSubtitle": "",
     "cardDetailedText": "Case #2, an adult female and close contact of case #1, is reported as boarding the ship with Case #1.",
@@ -41,7 +41,7 @@
     "sourceUrl": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON600"
   },
   {
-    "title": "2026-04-06",
+    "date": "2026-04-06",
     "cardTitle": "Case 1 becomes Ill",
     "cardSubtitle": "",
     "cardDetailedText": "Case #1 develops symptoms",
@@ -55,7 +55,7 @@
     "sourceUrl": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON600"
   },
   {
-    "title": "2026-04-11",
+    "date": "2026-04-11",
     "cardTitle": "Case 1 Passes Away",
     "cardSubtitle": "",
     "cardDetailedText": "Case #1 passes away onboard the MV Hondius on 11 April. No microbiological tests were performed.",
@@ -69,7 +69,7 @@
     "sourceUrl": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON600"
   },
   {
-    "title": "2026-04-14",
+    "date": "2026-04-14",
     "cardTitle": "Case 8 Disembarks MV Hondius",
     "cardSubtitle": "",
     "cardDetailedText": "Case #8, an adult male, disembarks in Tristan da Cunha on 14 April.",
@@ -83,7 +83,7 @@
     "sourceUrl": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON600"
   },
   {
-    "title": "2026-04-22",
+    "date": "2026-04-22",
     "cardTitle": "Case 7 Disembarks MV Hondius",
     "cardSubtitle": "",
     "cardDetailedText": "Case #7 disembarks at Saint Helena on 22 April.",
@@ -97,7 +97,7 @@
     "sourceUrl": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON600"
   },
   {
-    "title": "2026-04-24",
+    "date": "2026-04-24",
     "cardTitle": "Case 2 becomes Ill",
     "cardSubtitle": "",
     "cardDetailedText": "Case #2 goes ashore at Saint Helena with gastrointestinal symptoms.",
@@ -112,7 +112,7 @@
     "sourceUrl": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON600"
   },
   {
-    "title": "2026-04-24",
+    "date": "2026-04-24",
     "cardTitle": "Case 3 becomes Ill",
     "cardSubtitle": "",
     "cardDetailedText": "Case #3, an adult male, develops symptoms on 24 April.",
@@ -126,7 +126,7 @@
     "sourceUrl": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON600"
   },
   {
-    "title": "2026-04-24",
+    "date": "2026-04-24",
     "cardTitle": "Passengers Disembark at Saint Helena",
     "cardSubtitle": "",
     "cardDetailedText": "WHO reports that contact tracing efforts include passengers who disembarked in Saint Helena, United Kingdom, on 24 April; Praia, Cabo Verde, on 6 May; and Tenerife, Spain, on 10 and 11 May.",
@@ -139,7 +139,7 @@
     "sourceUrl": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON601"
   },
   {
-    "title": "2026-04-25",
+    "date": "2026-04-25",
     "cardTitle": "Case 2 Deteriorates",
     "cardSubtitle": "",
     "cardDetailedText": "Case #2 is reported to have deteriorated on a flight to Johannesburg, South Africa, on 25 April.",
@@ -153,7 +153,7 @@
     "sourceUrl": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON600"
   },
   {
-    "title": "2026-04-26",
+    "date": "2026-04-26",
     "cardTitle": "Case 2 Passes Away",
     "cardSubtitle": "",
     "cardDetailedText": "Case #2 passes away on 26 April in a Johannesburg clinic.",
@@ -168,7 +168,7 @@
     "sourceUrl": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON600"
   },
   {
-    "title": "2026-04-27",
+    "date": "2026-04-27",
     "cardTitle": "Case 6 becomes Ill",
     "cardSubtitle": "",
     "cardDetailedText": "Case #6, an adult male working as a ship guide reports onset of symptoms on 27 April with mild respiratory and gastrointestinal symptoms.",
@@ -182,7 +182,7 @@
     "sourceUrl": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON600"
   },
   {
-    "title": "2026-04-27",
+    "date": "2026-04-27",
     "cardTitle": "Case 3 Disembarks MV Hondius",
     "cardSubtitle": "",
     "cardDetailedText": "Case #3  was disembarked and medically evacuated from Ascension Island on 27 April and was hospitalised in an Intensive Care Unit (ICU) in Johannesburg, South Africa.",
@@ -197,7 +197,7 @@
     "sourceUrl": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON600"
   },
   {
-    "title": "2026-04-27",
+    "date": "2026-04-27",
     "cardTitle": "Case 7 Flies to Switzerland",
     "cardSubtitle": "",
     "cardDetailedText": "Case #7 flies back to Switzerland on 27-28 April, through South Africa and Qatar.",
@@ -213,7 +213,7 @@
     "sourceUrl": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON600"
   },
   {
-    "title": "2026-04-28",
+    "date": "2026-04-28",
     "cardTitle": "Case 4 becomes Ill",
     "cardSubtitle": "",
     "cardDetailedText": "Case #4, an adult female, develops symptoms (fever and general malaise) on 28 April.",
@@ -227,7 +227,7 @@
     "sourceUrl": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON600"
   },
   {
-    "title": "2026-04-28",
+    "date": "2026-04-28",
     "cardTitle": "Case 8 Becomes Ill",
     "cardSubtitle": "",
     "cardDetailedText": "Case #8 experiences onset of symptoms on 28 April with diarrhoea and two days later with fever.",
@@ -241,7 +241,7 @@
     "sourceUrl": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON600"
   },
   {
-    "title": "2026-04-30",
+    "date": "2026-04-30",
     "cardTitle": "Case 5 becomes Ill",
     "cardSubtitle": "",
     "cardDetailedText": "Case #5, an adult male working as the ship doctor, reported onset of symptoms on 30 April, including fever, fatigue, muscle pain, and mild respiratory symptoms.",
@@ -255,7 +255,7 @@
     "sourceUrl": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON600"
   },
   {
-    "title": "2026-05-01",
+    "date": "2026-05-01",
     "cardTitle": "Case 7 becomes Ill",
     "cardSubtitle": "",
     "cardDetailedText": "Case #7 starts experiencing symptoms on 1 May after arrival in Switzerland, where he immediately self-isolated and reported to local public health authorities.",
@@ -270,7 +270,7 @@
     "sourceUrl": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON600"
   },
   {
-    "title": "2026-05-02",
+    "date": "2026-05-02",
     "cardTitle": "WHO is Notified",
     "cardSubtitle": "",
     "cardDetailedText": "On 2 May 2026, WHO receives notification from the National IHR Focal Point of the United Kingdom of Great Britain and Northern Ireland (hereafter referred to as the United Kingdom) regarding a cluster of severe acute respiratory illness, including two deaths and one critically ill passenger, aboard a Dutch-flagged cruise ship.",
@@ -283,7 +283,7 @@
     "sourceUrl": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON600"
   },
   {
-    "title": "2026-05-02",
+    "date": "2026-05-02",
     "cardTitle": "Hantavirus Identified",
     "cardSubtitle": "",
     "cardDetailedText": "PCR testing (from Case #3) confirms hantavirus as the causative agent.",
@@ -296,7 +296,7 @@
     "sourceUrl": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON600"
   },
   {
-    "title": "2026-05-02",
+    "date": "2026-05-02",
     "cardTitle": "Case 4 Passes Away",
     "cardSubtitle": "",
     "cardDetailedText": "Case #4 develops pneumonia and passes away on 2 May.",
@@ -310,7 +310,7 @@
     "sourceUrl": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON600"
   },
   {
-    "title": "2026-05-04",
+    "date": "2026-05-04",
     "cardTitle": "WHO Reports 7 cases, 3 deaths",
     "cardSubtitle": "",
     "cardDetailedText": "WHO reports 7 cases (2 confirmed, 5 suspected) and 3 deaths.",
@@ -321,7 +321,7 @@
     "sourceUrl": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON599"
   },
   {
-    "title": "2026-05-06",
+    "date": "2026-05-06",
     "cardTitle": "WHO confirms Andes virus",
     "cardSubtitle": "",
     "cardDetailedText": "On May 6, 2026, WHO confirmed that the type of hantavirus responsible for this outbreak is the Andes virus.",
@@ -334,7 +334,7 @@
     "sourceLabel": "CDC Health Alert, 8 May 2026"
   },
   {
-    "title": "2026-05-06",
+    "date": "2026-05-06",
     "cardTitle": "Case 5 is Evacuated",
     "cardSubtitle": "",
     "cardDetailedText": "Case #5 is medically evacuated to the Netherlands on 6 May.",
@@ -348,7 +348,7 @@
     "sourceUrl": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON600"
   },
   {
-    "title": "2026-05-06",
+    "date": "2026-05-06",
     "cardTitle": "MV Hondius departs Cabo Verde",
     "cardSubtitle": "",
     "cardDetailedText": "",
@@ -361,7 +361,7 @@
     "sourceUrl": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON600"
   },
   {
-    "title": "2026-05-06",
+    "date": "2026-05-06",
     "cardTitle": "Passengers Disembark at Cabo Verde",
     "cardSubtitle": "",
     "cardDetailedText": "WHO reports that contact tracing efforts include passengers who disembarked in Saint Helena, United Kingdom, on 24 April; Praia, Cabo Verde, on 6 May; and Tenerife, Spain, on 10 and 11 May.",
@@ -374,7 +374,7 @@
     "sourceUrl": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON601"
   },
   {
-    "title": "2026-05-07",
+    "date": "2026-05-07",
     "cardTitle": "Case 6 is Evacuated",
     "cardSubtitle": "",
     "cardDetailedText": "Case #6 is medically evacuated to the Netherlands on 7 May.",
@@ -388,7 +388,7 @@
     "sourceUrl": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON600"
   },
   {
-    "title": "2026-05-08",
+    "date": "2026-05-08",
     "cardTitle": "WHO Reports 8 cases, 3 deaths",
     "cardSubtitle": "",
     "cardDetailedText": "WHO reports 8 cases (6 confirmed, 2 probable) and 3 deaths.",
@@ -399,7 +399,7 @@
     "sourceUrl": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON600"
   },
   {
-    "title": "2026-05-10",
+    "date": "2026-05-10",
     "cardTitle": "MV Hondius Arrives in Canary Islands",
     "cardSubtitle": "",
     "cardDetailedText": "On 10 May, the ship arrives in the Canary Islands, Spain, where disembarkation began.  Passengers and most of the crew are repatriated from the Canary Islands to their respective residence countries or transit points via specially arranged non-commercial flights, with WHO and partners supporting the disembarkation process.",
@@ -412,7 +412,7 @@
     "sourceUrl": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON601"
   },
   {
-    "title": "2026-05-10",
+    "date": "2026-05-10",
     "cardTitle": "Passengers Disembark at Tenerife (Canary Islands)",
     "cardSubtitle": "",
     "cardDetailedText": "WHO reports that contact tracing efforts include passengers who disembarked in Saint Helena, United Kingdom, on 24 April; Praia, Cabo Verde, on 6 May; and Tenerife, Spain, on 10 and 11 May.",
@@ -425,7 +425,7 @@
     "sourceUrl": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON601"
   },
   {
-    "title": "2026-05-11",
+    "date": "2026-05-11",
     "cardTitle": "MV Hondius Departs Canary Islands",
     "cardSubtitle": "",
     "cardDetailedText": "The ship leaves the Canary Islands on 11 May and is sailing to the Netherlands, with 25 crew members remaining on board, along with two Dutch health and care workers to conduct their health monitoring and provide any healthcare that may be necessary. ",
@@ -438,7 +438,7 @@
     "sourceUrl": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON601"
   },
   {
-    "title": "2026-05-13",
+    "date": "2026-05-13",
     "cardTitle": "WHO Reports 11 cases, 3 deaths",
     "cardSubtitle": "",
     "cardDetailedText": "WHO reports 11 cases (8 confirmed, 2 probable, 1 inconclusive) and 3 deaths.",

@@ -51,7 +51,7 @@ export default function App() {
 
       const matchesSearch =
         !search ||
-        item.title?.toLowerCase().includes(search) ||
+        item.date?.toLowerCase().includes(search) ||
         item.cardTitle?.toLowerCase().includes(search) ||
         item.cardSubtitle?.toLowerCase().includes(search) ||
         item.cardDetailedText?.toLowerCase().includes(search) ||
@@ -69,8 +69,20 @@ export default function App() {
     });
   }, [rawItems, searchText, selectedCategory, selectedTags]);
 
+  const groupedItems = filteredItems.reduce((groups, item) => {
+    const date = item.date;
+
+    if (!groups[date]) {
+      groups[date] = [];
+    }
+
+    groups[date].push(item);
+
+    return groups;
+  }, {});
+
   const chronoItems = filteredItems.map((item) => ({
-    title: item.title,
+    title: item.date,
   }));
 
   return (
@@ -161,8 +173,8 @@ export default function App() {
 
       <section className="timeline-list">
         {filteredItems.map((item) => (
-          <article className="event-card" key={`${item.title}-${item.cardTitle}`}>
-            <div className="event-date">{item.title}</div>
+          <article className="event-card" key={`${item.date}-${item.cardTitle}`}>
+            <div className="event-date">{item.date}</div>
 
             <div className="event-content">
               <h2>{item.cardTitle}</h2>
