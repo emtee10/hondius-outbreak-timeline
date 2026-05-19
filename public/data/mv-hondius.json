@@ -1,9 +1,9 @@
 [
   {
     "date": "2026-04-01",
-    "cardTitle": "MV Hondius departs Ushuaia",
+    "cardTitle": "MV Hondius departs Ushuaia, Argentina",
     "cardSubtitle": "",
-    "cardDetailedText": "",
+    "cardDetailedText": "MV Hondius departs Ushuaia, Argentina on 1 April 2026. Oceanwide Expeditions notes that the itinerary is the Atlantic Odyssey voyage, which was scheduled to end in Praia, Cape Verde, on 4 May 2026. They note that guests can book the cruise as Ushuaia-to-Saint Helena, or Ushuaia-to-Cabo Verde. Oceanwide reports that the vessel departed with 175 individuals onboard (114 guests, 61 crew).",
     "location": "Ushuaia, Argentina",
     "category": "itinerary",
     "tags": [
@@ -13,6 +13,10 @@
       {
         "label": "CDC Health Alert, 8 May 2026",
         "url": "https://www.cdc.gov/han/php/notices/han00528.html"
+      },
+      {
+        "label": "Oceanwide Expeditions Press Update, 8 May 2026",
+        "url": "https://oceanwide-expeditions.com/press/press-update-m-v-hondius-8-may-2026-19-00-hrs-cet"
       }
     ]
   },
@@ -53,11 +57,28 @@
     ]
   },
   {
+    "date": "2026-04-04",
+    "cardTitle": "MV Hondius arrives in South Georgia",
+    "cardSubtitle": "",
+    "cardDetailedText": "",
+    "location": "South Georgia, British Overseas Territory",
+    "category": "itinerary",
+    "tags": [
+      "south-georgia"
+    ],
+    "sources": [
+      {
+        "label": "Oceanwide Expeditions Press Update, 8 May 2026",
+        "url": "https://oceanwide-expeditions.com/press/press-update-m-v-hondius-8-may-2026-19-00-hrs-cet"
+      }
+    ]
+  },
+  {
     "date": "2026-04-06",
     "cardTitle": "Case 1 becomes Ill",
     "cardSubtitle": "",
     "cardDetailedText": "Case #1 develops symptoms",
-    "location": "Ushuaia, Argentina",
+    "location": "",
     "category": "cases",
     "tags": [
       "case-001",
@@ -67,6 +88,23 @@
       {
         "label": "WHO Disease Outbreak Notification, 8 May 2026",
         "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON600"
+      }
+    ]
+  },
+    {
+    "date": "2026-04-07",
+    "cardTitle": "MV Hondius departs South Georgia",
+    "cardSubtitle": "",
+    "cardDetailedText": "",
+    "location": "South Georgia, British Overseas Territory",
+    "category": "itinerary",
+    "tags": [
+      "south-georgia"
+    ],
+    "sources": [
+      {
+        "label": "Oceanwide Expeditions Press Update, 8 May 2026",
+        "url": "https://oceanwide-expeditions.com/press/press-update-m-v-hondius-8-may-2026-19-00-hrs-cet"
       }
     ]
   },
@@ -89,6 +127,23 @@
     ]
   },
   {
+    "date": "2026-04-13",
+    "cardTitle": "MV Hondius arrives in Tristan da Cunha",
+    "cardSubtitle": "",
+    "cardDetailedText": "Oceanwide reports that one crew member disembarked at this port.",
+    "location": "Tristan da Cunha, British Overseas Territory",
+    "category": "itinerary",
+    "tags": [
+      "tristan-da-cunha"
+    ],
+    "sources": [
+      {
+        "label": "Oceanwide Expeditions Press Update, 8 May 2026",
+        "url": "https://oceanwide-expeditions.com/press/press-update-m-v-hondius-8-may-2026-19-00-hrs-cet"
+      }
+    ]
+  },
+  {
     "date": "2026-04-14",
     "cardTitle": "Case 8 Disembarks MV Hondius",
     "cardSubtitle": "",
@@ -107,11 +162,64 @@
     ]
   },
   {
+    "date": "2026-04-16",
+    "cardTitle": "MV Hondius departs Tristan da Cunha",
+    "cardSubtitle": "",
+    "cardDetailedText": "Oceanwide reports that 6 guests embarked  at this portand the vessel departed with 180 individuals onboard (120 guests, 60 crew).",
+    "location": "Tristan da Cunha, British Overseas Territory",
+    "category": "itinerary",
+    "tags": [
+      "tristan-da-cunha"
+    ],
+    "sources": [
+      {
+        "label": "Oceanwide Expeditions Press Update, 8 May 2026",
+        "url": "https://oceanwide-expeditions.com/press/press-update-m-v-hondius-8-may-2026-19-00-hrs-cet"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-17",
+    "cardTitle": "MV Hondius arrives in and departs Gough Island",
+    "cardSubtitle": "",
+    "cardDetailedText": "",
+    "location": "Gough Island, British Overseas Territory",
+    "category": "itinerary",
+    "tags": [
+      "gough-island"
+    ],
+    "sources": [
+      {
+        "label": "Oceanwide Expeditions Press Update, 8 May 2026",
+        "url": "https://oceanwide-expeditions.com/press/press-update-m-v-hondius-8-may-2026-19-00-hrs-cet"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-21",
+    "cardTitle": "MV Hondius arrives in Saint Helena",
+    "cardSubtitle": "",
+    "cardDetailedText": "Oceanwide reports that 32 guests disembarked at this port, including the deceased individual (Case #1) and their spouse accompanying the body (Case #2).",
+    "location": "Saint Helena, British Overseas Territory",
+    "category": "itinerary",
+    "tags": [
+      "case-001",
+      "case-002",
+      "saint-helena"
+    ],
+    "sources": [
+      {
+        "label": "Oceanwide Expeditions Press Update, 8 May 2026",
+        "url": "https://oceanwide-expeditions.com/press/press-update-m-v-hondius-8-may-2026-19-00-hrs-cet"
+      }
+    ]
+  },
+  {
     "date": "2026-04-22",
     "cardTitle": "Case 7 Disembarks MV Hondius",
     "cardSubtitle": "",
     "cardDetailedText": "Case #7 disembarks at Saint Helena on 22 April.",
-    "location": "",
+    "location": "Saint Helena, British Overseas Territory",
     "category": "cases",
     "tags": [
       "case-007",
@@ -145,10 +253,27 @@
   },
   {
     "date": "2026-04-24",
+    "cardTitle": "MV Hondius departs Saint Helena",
+    "cardSubtitle": "",
+    "cardDetailedText": "Oceanwide reports that 1 crew member embarked at this port and the vessel departed with 149 individuals onboard (88 guests, 61 crew).",
+    "location": "",
+    "category": "itinerary",
+    "tags": [
+      "saint-helena"
+    ],
+    "sources": [
+      {
+        "label": "Oceanwide Expeditions Press Update, 8 May 2026",
+        "url": "https://oceanwide-expeditions.com/press/press-update-m-v-hondius-8-may-2026-19-00-hrs-cet"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-24",
     "cardTitle": "Case 3 becomes Ill",
     "cardSubtitle": "",
     "cardDetailedText": "Case #3, an adult male, develops symptoms on 24 April.",
-    "location": "",
+    "location": "Saint Helena",
     "category": "cases",
     "tags": [
       "case-003",
@@ -158,23 +283,6 @@
       {
         "label": "WHO Disease Outbreak Notification, 8 May 2026",
         "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON600"
-      }
-    ]
-  },
-  {
-    "date": "2026-04-24",
-    "cardTitle": "Passengers Disembark at Saint Helena",
-    "cardSubtitle": "",
-    "cardDetailedText": "WHO reports that contact tracing efforts include passengers who disembarked in Saint Helena, United Kingdom, on 24 April; Praia, Cabo Verde, on 6 May; and Tenerife, Spain, on 10 and 11 May.",
-    "location": "",
-    "category": "contacts",
-    "tags": [
-      "saint-helena"
-    ],
-    "sources": [
-      {
-        "label": "WHO Disease Outbreak Notification, 13 May 2026",
-        "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON601"
       }
     ]
   },
@@ -235,14 +343,32 @@
   },
   {
     "date": "2026-04-27",
+    "cardTitle": "MV Hondius arrives in and departs Ascension Island",
+    "cardSubtitle": "",
+    "cardDetailedText": "Oceanwide reports that two guests disembarked (medically evacuated): one symptomatic British national (Case #3) and one asymptomatic American national (their partner). The vessel departed with 147 individuals onboard (86 guests, 61 crew).",
+    "location": "Ascension Island, British Oversea Territory",
+    "category": "cases",
+    "tags": [
+      "ascension-island",
+      "case-003"
+    ],
+    "sources": [
+      {
+        "label": "Oceanwide Expeditions Press Update, 8 May 2026",
+        "url": "https://oceanwide-expeditions.com/press/press-update-m-v-hondius-8-may-2026-19-00-hrs-cet"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-27",
     "cardTitle": "Case 3 Disembarks MV Hondius",
     "cardSubtitle": "",
     "cardDetailedText": "Case #3  was disembarked and medically evacuated from Ascension Island on 27 April and was hospitalised in an Intensive Care Unit (ICU) in Johannesburg, South Africa.",
-    "location": "Ascention Island; Johannesburg, South Africa",
+    "location": "Ascension Island, British Oversea Territory; Johannesburg, South Africa",
     "category": "cases",
     "tags": [
       "case-003",
-      "ascention-island",
+      "ascension-island",
       "south-africa"
     ],
     "sources": [
@@ -331,7 +457,7 @@
     "cardTitle": "Case 7 becomes Ill",
     "cardSubtitle": "",
     "cardDetailedText": "Case #7 starts experiencing symptoms on 1 May after arrival in Switzerland, where he immediately self-isolated and reported to local public health authorities.",
-    "location": "",
+    "location": "Switzerland",
     "category": "cases",
     "tags": [
       "case-007",
@@ -398,6 +524,25 @@
     ]
   },
   {
+    "date": "2026-05-03",
+    "cardTitle": "MV Hondius arrives near Praia, Cabo Verde",
+    "cardSubtitle": "",
+    "cardDetailedText": "The vessel was anchored offshore and was not permitted to dock. Cabo Verde argued that it was too small a country to handle the outbreak.",
+    "location": "Praia, Cabo Verde",
+    "category": "cases",
+    "tags": [
+      "cabo-verde",
+      "case-004",
+      "death"
+    ],
+    "sources": [
+      {
+        "label": "New York Times: How a Nature Cruise Turned Into a Nightmare, 16 May 2026",
+        "url": "https://www.nytimes.com/2026/05/16/world/europe/hantavirus-hondius-cruise.html"
+      }
+    ]
+  },
+  {
     "date": "2026-05-04",
     "cardTitle": "WHO Reports 7 cases, 3 deaths",
     "cardSubtitle": "",
@@ -432,53 +577,40 @@
   },
   {
     "date": "2026-05-06",
-    "cardTitle": "Case 5 is Evacuated",
+    "cardTitle": "Multiple passengers are evacuated to the Netherlands",
     "cardSubtitle": "",
-    "cardDetailedText": "Case #5 is medically evacuated to the Netherlands on 6 May.",
+    "cardDetailedText": "On 6 May, three individuals were transferred by medicalized aircraft from m/v Hondius to the Netherlands. Two listed as guests and one listed as crew. Case #5 is among those evacuated.",
     "location": "",
     "category": "cases",
     "tags": [
       "case-005",
-      "netherlands"
+      "the-netherlands"
     ],
     "sources": [
       {
         "label": "WHO Disease Outbreak Notification, 8 May 2026",
         "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON600"
+      },
+      {
+        "label": "Oceanwide Expeditions Press Update, 8 May 2026",
+        "url": "https://oceanwide-expeditions.com/press/press-update-m-v-hondius-8-may-2026-19-00-hrs-cet"
       }
     ]
   },
   {
     "date": "2026-05-06",
-    "cardTitle": "MV Hondius departs Cabo Verde",
+    "cardTitle": "MV Hondius departs Praia, Cabo Verde",
     "cardSubtitle": "",
-    "cardDetailedText": "",
-    "location": "Cabo Verde",
+    "cardDetailedText": "Oceanwide reports that four medical staff (counted as guests) embarked and the vessel departed with 147 individuals onboard (87 guests, 60 crew).",
+    "location": "Praia, Cabo Verde",
     "category": "itinerary",
     "tags": [
       "cabo-verde"
     ],
     "sources": [
       {
-        "label": "WHO Disease Outbreak Notification, 8 May 2026",
-        "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON600"
-      }
-    ]
-  },
-  {
-    "date": "2026-05-06",
-    "cardTitle": "Passengers Disembark at Cabo Verde",
-    "cardSubtitle": "",
-    "cardDetailedText": "WHO reports that contact tracing efforts include passengers who disembarked in Saint Helena, United Kingdom, on 24 April; Praia, Cabo Verde, on 6 May; and Tenerife, Spain, on 10 and 11 May.",
-    "location": "",
-    "category": "contacts",
-    "tags": [
-      "cabo-verde"
-    ],
-    "sources": [
-      {
-        "label": "WHO Disease Outbreak Notification, 13 May 2026",
-        "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON601"
+        "label": "Oceanwide Expeditions Press Update, 8 May 2026",
+        "url": "https://oceanwide-expeditions.com/press/press-update-m-v-hondius-8-may-2026-19-00-hrs-cet"
       }
     ]
   },
@@ -487,11 +619,11 @@
     "cardTitle": "Case 6 is Evacuated",
     "cardSubtitle": "",
     "cardDetailedText": "Case #6 is medically evacuated to the Netherlands on 7 May.",
-    "location": "",
+    "location": "The Netherlands",
     "category": "cases",
     "tags": [
       "case-006",
-      "netherlands"
+      "the-netherlands"
     ],
     "sources": [
       {
@@ -537,7 +669,7 @@
     "cardTitle": "Passengers Disembark at Tenerife (Canary Islands)",
     "cardSubtitle": "",
     "cardDetailedText": "WHO reports that contact tracing efforts include passengers who disembarked in Saint Helena, United Kingdom, on 24 April; Praia, Cabo Verde, on 6 May; and Tenerife, Spain, on 10 and 11 May.",
-    "location": "Canary Islands, Spain",
+    "location": "Tenerife, Canary Islands, Spain",
     "category": "contacts",
     "tags": [
       "spain"
@@ -554,7 +686,7 @@
     "cardTitle": "Canadian Passengers return to British Columbia",
     "cardSubtitle": "",
     "cardDetailedText": "Four Canadian passengers from the MV Hondius arrive in British Columbia via a chartered aircraft. These include a couple in their 70s from the Yukon, a Vancouver Island resident in their 70s, and another individual from BC in their 50s. All individuals are asymptomatic and will initiate a 21-42 day self-isolation period on Vancouver Island.",
-    "location": "",
+    "location": "British Columbia, Canada",
     "category": "contacts",
     "tags": [
       "canada"
@@ -575,7 +707,7 @@
     "cardTitle": "MV Hondius Departs Canary Islands",
     "cardSubtitle": "",
     "cardDetailedText": "The ship leaves the Canary Islands on 11 May and is sailing to the Netherlands, with 25 crew members remaining on board, along with two Dutch health and care workers to conduct their health monitoring and provide any healthcare that may be necessary. ",
-    "location": "Canary Islands, Spain",
+    "location": "Tenerife, Canary Islands, Spain",
     "category": "itinerary",
     "tags": [
       "canary-islands"
@@ -607,7 +739,7 @@
     "cardTitle": "Canada identifies 9 high-risk, 26 low-risk contacts",
     "cardSubtitle": "",
     "cardDetailedText": "Canadian Chief Public Health Officer Dr. Joss Reimer reports that there are a total of nine individuals within Canada who are identified as high-risk contacts with potential exposures to Andes hantavirus: Four Canadian passengers aboard the MV Hondius who arrived in British Columbia on May 10; Two individuals who were aboard the MV Hondius, disembarked prior to the outbreak being identified, and were on a flight where they could have been exposed to a confirmed case; Three individuals who were on a flight where they may have been exposed to a confirmed case. Dr. Reimer identified a further 26 individuals deemed to have minimal risk who have been referred to provincial/territorial authorities for follow up. These individuals were on one or more flights with a case, but there is no evidence of any direct or prolonged contact. The flights in question are: St. Helena to Johannesburg; Johannesburg to Amsterdam.",
-    "location": "",
+    "location": "Canada",
     "category": "contacts",
     "tags": [
       "canada"
@@ -628,7 +760,7 @@
     "cardTitle": "Case 11 Transferred to Hospital",
     "cardSubtitle": "",
     "cardDetailedText": "PHAC reports that an individual (Case 11) had was transported to hospital for assessment after developing mild symptoms (fever, headache). This individual is one of four high-risk individuals who was already self-isolating and being monitored for symptoms. This is an individual in their 70s from the Yukon, who had been a passenger on MV Hondius and was already in self-isolation in British Columbia.",
-    "location": "",
+    "location": "British Columbia, Canada",
     "category": "cases",
     "tags": [
       "case-011",
@@ -683,10 +815,10 @@
     "cardTitle": "MV Hondius arrives in Rotterdam, The Netherlands",
     "cardSubtitle": "",
     "cardDetailedText": "The MV Hondius arrives in Rotterdam, The Netherlands for disinfection. The ship was carrying 25 crew members, two medical personnel, and no passengers. 20 crew members and the two medical personnel left the ship and were taken to a quarantine facility.",
-    "location": "",
+    "location": "Rotterdam, The Netherlands",
     "category": "itinerary",
     "tags": [
-      "netherlands"
+      "the-netherlands"
     ],
     "sources": [
       {
