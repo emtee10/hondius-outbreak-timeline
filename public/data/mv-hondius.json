@@ -550,6 +550,27 @@
     ]
   },
   {
+    "date": "2026-05-10",
+    "cardTitle": "Canadian Passengers return to British Columbia",
+    "cardSubtitle": "",
+    "cardDetailedText": "Four Canadian passengers from the MV Hondius arrive in British Columbia via a chartered aircraft. These include a couple in their 70s from the Yukon, a Vancouver Island resident in their 70s, and another individual from BC in their 50s. All individuals are asymptomatic and will initiate a 21-42 day self-isolation period on Vancouver Island.",
+    "location": "",
+    "category": "contacts",
+    "tags": [
+      "canada"
+    ],
+    "sources": [
+      {
+        "label": "BC Provincial Health Officer Statement, 10 May 2026",
+        "url": "https://news.gov.bc.ca/releases/2026HLTH0045-000526"
+      },
+      {
+        "label": "CBC News: Canadian cruise passenger isolating in B.C. tests 'presumptive positive' for hantavirus, 16 May 2026",
+        "url": "https://www.cbc.ca/news/canada/british-columbia/bc-update-hantavirus-update-bonnie-henry-may-16-9.7202396"
+      }
+    ]
+  },
+  {
     "date": "2026-05-11",
     "cardTitle": "MV Hondius Departs Canary Islands",
     "cardSubtitle": "",
@@ -578,6 +599,99 @@
       {
         "label": "WHO Disease Outbreak Notification, 13 May 2026",
         "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON601"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-14",
+    "cardTitle": "Canada identifies 9 high-risk, 26 low-risk contacts",
+    "cardSubtitle": "",
+    "cardDetailedText": "Canadian Chief Public Health Officer Dr. Joss Reimer reports that there are a total of nine individuals within Canada who are identified as high-risk contacts with potential exposures to Andes hantavirus: Four Canadian passengers aboard the MV Hondius who arrived in British Columbia on May 10; Two individuals who were aboard the MV Hondius, disembarked prior to the outbreak being identified, and were on a flight where they could have been exposed to a confirmed case; Three individuals who were on a flight where they may have been exposed to a confirmed case. Dr. Reimer identified a further 26 individuals deemed to have minimal risk who have been referred to provincial/territorial authorities for follow up. These individuals were on one or more flights with a case, but there is no evidence of any direct or prolonged contact. The flights in question are: St. Helena to Johannesburg; Johannesburg to Amsterdam.",
+    "location": "",
+    "category": "contacts",
+    "tags": [
+      "canada"
+    ],
+    "sources": [
+      {
+        "label": "Speaking Remarks for the Chief Public Health Officer, 14 May 2026",
+        "url": "https://www.canada.ca/en/public-health/news/2026/05/speaking-remarks-for-the-chief-public-health-officer.html"
+      },
+      {
+        "label": "CBC News: 26 more Canadians being contacted for 'low-risk' hantavirus exposure, 14 May 2026",
+        "url": "https://www.cbc.ca/news/canada/hantavirus-canada-outbreak-exposure-9.7199706"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-16",
+    "cardTitle": "Case 11 Transferred to Hospital",
+    "cardSubtitle": "",
+    "cardDetailedText": "PHAC reports that an individual (Case 11) had was transported to hospital for assessment after developing mild symptoms (fever, headache). This individual is one of four high-risk individuals who was already self-isolating and being monitored for symptoms. This is an individual in their 70s from the Yukon, who had been a passenger on MV Hondius and was already in self-isolation in British Columbia.",
+    "location": "",
+    "category": "cases",
+    "tags": [
+      "case-011",
+      "canada"
+    ],
+    "sources": [
+      {
+        "label": "PHAC Media Update, 16 May 2026",
+        "url": "https://www.canada.ca/en/public-health/news/2026/05/media-update-on-andes-hantavirus-situation0.html"
+      },
+      {
+        "label": "CBC News: National lab confirms hantavirus case for Canadian cruise passenger isolating in B.C., 17 May 2026",
+        "url": "https://www.cbc.ca/news/canada/canadian-hantavirus-case-confirmed-phac-9.7202841"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-15",
+    "cardTitle": "WHO Reports 10 cases, 3 deaths; inconclusive case re-classified",
+    "cardSubtitle": "",
+    "cardDetailedText": "WHO reports 10 cases (8 confirmed, 2 probable) and 3 deaths. One inconclusive case from the previous update tested negative and is no longer considered a case.",
+    "location": "",
+    "category": "outbreak",
+    "tags": [],
+    "sources": [
+      {
+        "label": "CIPRAP: Hantavirus outbreak reduced to 10 cases as ship passengers return to home countries, 15 May 2026",
+        "url": "https://www.cidrap.umn.edu/misc-emerging-topics/hantavirus-outbreak-reduced-10-cases-ship-passengers-return-home-countries"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-16",
+    "cardTitle": "Case 11 Receives Presumptive Positive Test",
+    "cardSubtitle": "",
+    "cardDetailedText": "PHAC reports that an individual (Case 11) had a sample test presumptively positive for hantavirus after developing mild symptoms earlier in the week. This individual is one of four high-risk individuals who was already self-isolating and being monitored for symptoms. This is an individual in their 70s from the Yukon, who had been a passenger on MV Hondius and was already in self-isolation in British Columbia.",
+    "location": "",
+    "category": "cases",
+    "tags": [
+      "case-011",
+      "canada"
+    ],
+    "sources": [
+      {
+        "label": "PHAC Media Update, 16 May 2026",
+        "url": "https://www.canada.ca/en/public-health/news/2026/05/media-update-on-andes-hantavirus-situation0.html"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-18",
+    "cardTitle": "MV Hondius arrives in Rotterdam, The Netherlands",
+    "cardSubtitle": "",
+    "cardDetailedText": "The MV Hondius arrives in Rotterdam, The Netherlands for disinfection. The ship was carrying 25 crew members, two medical personnel, and no passengers. 20 crew members and the two medical personnel left the ship and were taken to a quarantine facility.",
+    "location": "",
+    "category": "itinerary",
+    "tags": [
+      "netherlands"
+    ],
+    "sources": [
+      {
+        "label": "CBC News: Hantavirus-stricken cruise ship docks in the Netherlands for disinfection, 18 May 2026",
+        "url": "https://www.cbc.ca/news/world/hantavirus-cruise-ship-netherlands-9.7203130"
       }
     ]
   }
