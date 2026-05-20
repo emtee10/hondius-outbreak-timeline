@@ -1,4 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
+import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
 import { Chrono } from "react-chrono";
 import "./styles.css";
 
@@ -183,7 +185,11 @@ export default function App() {
                 <p className="event-subtitle">{item.cardSubtitle}</p>
               )}
 
-              <p className="event-description">{item.cardDetailedText}</p>
+              <div className="event-description markdown-body">
+                <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                  {item.cardDetailedText}
+                </ReactMarkdown>
+              </div>
 
               <div className="event-meta">
                 {item.location && (
