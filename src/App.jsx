@@ -8,6 +8,7 @@ export default function App() {
   const [selectedCategory, setSelectedCategory] = useState("all");
   const [selectedTags, setSelectedTags] = useState([]);
   const [showTags, setShowTags] = useState(false);
+  const [viewMode, setViewMode] = useState("timeline");
 
   useEffect(() => {
     fetch(`${import.meta.env.BASE_URL}data/mv-hondius.json`)
@@ -169,72 +170,127 @@ export default function App() {
         >
           Reset (Showing {filteredItems.length} of {rawItems.length} events)
         </button>
+        <div className="view-toggle">
+          <button
+            type="button"
+            className={viewMode === "timeline" ? "view-button active" : "view-button"}
+            onClick={() => setViewMode("timeline")}
+          >
+            Timeline
+          </button>
+
+          <button
+            type="button"
+            className={viewMode === "lanes" ? "view-button active" : "view-button"}
+            onClick={() => setViewMode("lanes")}
+          >
+            Lanes
+          </button>
+        </div>
       </section>
 
-      <section className="timeline-list">
-        {filteredItems.map((item) => (
-          <article className="event-card" key={`${item.date}-${item.cardTitle}`}>
-            <div className="event-date">{item.date}</div>
+      {viewMode === "timeline" ? (
+        <section className="timeline-list">
+          {filteredItems.map((item) => (
+            <article className="event-card" key={`${item.date}-${item.cardTitle}`}>
+              <div className="event-date">{item.date}</div>
 
-            <div className="event-content">
-              <h2>{item.cardTitle}</h2>
+              <div className="event-content">
+                <h2>{item.cardTitle}</h2>
 
-              {item.cardSubtitle && (
-                <p className="event-subtitle">{item.cardSubtitle}</p>
-              )}
+                {item.cardSubtitle && (
+                  <p className="event-subtitle">{item.cardSubtitle}</p>
+                )}
 
-              <p className="event-description">{item.cardDetailedText}</p>
+                <p className="event-description">{item.cardDetailedText}</p>
 
-              <div className="event-meta">
-                {item.location && (
-                  <div>
-                    <span className="meta-label">Location</span>
-                    <span>{item.location}</span>
+                <div className="event-meta">
+                  {item.location && (
+                    <div>
+                      <span className="meta-label">Location</span>
+                      <span>{item.location}</span>
+                    </div>
+                  )}
+
+                  {item.category && (
+                    <div>
+                      <span className="meta-label">Category</span>
+                      <span>{item.category}</span>
+                    </div>
+                  )}
+                </div>
+
+                {item.tags?.length > 0 && (
+                  <div className="tag-list">
+                    {item.tags.map((tag) => (
+                      <span className="tag" key={tag}>{tag}</span>
+                    ))}
                   </div>
                 )}
 
-                {item.category && (
-                  <div>
-                    <span className="meta-label">Category</span>
-                    <span>{item.category}</span>
+                {item.sources?.length > 0 && (
+                  <div className="source-list">
+                    <span className="meta-label">Sources</span>
+
+                    <ul>
+                      {item.sources.map((source) => (
+                        <li key={source.url}>
+                          <a
+                            className="source-link"
+                            href={source.url}
+                            target="_blank"
+                            rel="noreferrer"
+                          >
+                            {source.label}
+                          </a>
+                        </li>
+                      ))}
+                    </ul>
                   </div>
                 )}
+
+
               </div>
+            </article>
+          ))}
+        </section>
+      ) : (
+        <section className="lane-view">
+          {Object.entries(groupedItems).map(([date, events]) => {
+            const lanes = categories.filter((category) => category !== "all");
 
-              {item.tags?.length > 0 && (
-                <div className="tag-list">
-                  {item.tags.map((tag) => (
-                    <span className="tag" key={tag}>{tag}</span>
+            return (
+              <div className="lane-date-row" key={date}>
+                <div className="lane-date">
+                  <strong>{date}</strong>
+                  <span>
+                    {events.length} event{events.length !== 1 ? "s" : ""}
+                  </span>
+                </div>
+
+                <div className="lane-grid">
+                  {lanes.map((lane) => (
+                    <div className="lane-column" key={lane}>
+                      <div className="lane-heading">{lane}</div>
+
+                      {events
+                        .filter((item) => item.category === lane)
+                        .map((item) => (
+                          <article
+                            className={`lane-card lane-card-${item.category}`}
+                            key={`${item.date}-${item.cardTitle}`}
+                          >
+                            {item.cardTitle}
+                          </article>
+                        ))}
+                    </div>
                   ))}
                 </div>
-              )}
-
-              {item.sources?.length > 0 && (
-                <div className="source-list">
-                  <span className="meta-label">Sources</span>
-
-                  <ul>
-                    {item.sources.map((source) => (
-                      <li key={source.url}>
-                        <a
-                          className="source-link"
-                          href={source.url}
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          {source.label}
-                        </a>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              )}
-
-
-            </div>
-          </article>
-        ))}
-      </section>
+              </div>
+            );
+          })}
+        </section>
+      )}        
     </main>
   );
 }
