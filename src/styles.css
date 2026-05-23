@@ -228,25 +228,6 @@ body {
   text-decoration: underline;
 }
 
-/* Toggle styling */
-
-.view-toggle {
-  max-width: 1000px;
-  margin: 0 auto 20px auto;
-  display: flex;
-  gap: 8px;
-}
-
-.view-button {
-  border: 1px solid #cbd5e1;
-  background: #ffffff;
-  color: #334155;
-  border-radius: 999px;
-  padding: 8px 14px;
-  font-weight: 700;
-  cursor: pointer;
-}
-
 /* Lane view styling */
 
 .view-button.active {
@@ -339,4 +320,70 @@ body {
   .lane-grid {
     grid-template-columns: 1fr;
   }
+}
+
+/* Switch toggle styling */
+
+.view-switch-row {
+  max-width: 1000px;
+  margin: 0 auto 24px auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.view-switch-label {
+  font-size: 14px;
+  font-weight: 800;
+  color: #475569;
+}
+
+.view-switch {
+  position: relative;
+  display: inline-block;
+  width: 58px;
+  height: 32px;
+}
+
+.view-switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.view-switch-slider {
+  position: absolute;
+  cursor: pointer;
+  inset: 0;
+  background: #cbd5e1;
+  border-radius: 999px;
+  transition: 0.2s;
+  box-shadow: inset 0 1px 3px rgba(15, 23, 42, 0.18);
+}
+
+.view-switch-slider::before {
+  content: "";
+  position: absolute;
+  height: 26px;
+  width: 26px;
+  left: 3px;
+  top: 3px;
+  background: #ffffff;
+  border-radius: 50%;
+  transition: 0.2s;
+  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.25);
+}
+
+.view-switch input:checked + .view-switch-slider {
+  background: #2563eb;
+}
+
+.view-switch input:checked + .view-switch-slider::before {
+  transform: translateX(26px);
+}
+
+.view-switch input:focus + .view-switch-slider {
+  outline: 3px solid rgba(37, 99, 235, 0.25);
+  outline-offset: 3px;
 }

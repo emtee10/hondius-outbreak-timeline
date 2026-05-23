@@ -170,22 +170,21 @@ export default function App() {
         >
           Reset (Showing {filteredItems.length} of {rawItems.length} events)
         </button>
-        <div className="view-toggle">
-          <button
-            type="button"
-            className={viewMode === "timeline" ? "view-button active" : "view-button"}
-            onClick={() => setViewMode("timeline")}
-          >
-            Timeline
-          </button>
+        <div className="view-switch-row">
+          <span className="view-switch-label">Timeline</span>
 
-          <button
-            type="button"
-            className={viewMode === "lanes" ? "view-button active" : "view-button"}
-            onClick={() => setViewMode("lanes")}
-          >
-            Lanes
-          </button>
+          <label className="view-switch">
+            <input
+              type="checkbox"
+              checked={viewMode === "lanes"}
+              onChange={(event) =>
+                setViewMode(event.target.checked ? "lanes" : "timeline")
+              }
+            />
+            <span className="view-switch-slider"></span>
+          </label>
+
+          <span className="view-switch-label">Lanes</span>
         </div>
       </section>
 
