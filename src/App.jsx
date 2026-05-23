@@ -158,33 +158,32 @@ export default function App() {
             </div>
           )}
         </div>
-
-        <button
-          type="button"
-          className="filter-label"
-          onClick={() => {
-            setSearchText("");
-            setSelectedCategory("all");
-            setSelectedTags([]);
-          }}
-        >
-          Reset (Showing {filteredItems.length} of {rawItems.length} events)
-        </button>
-        <div className="view-switch-row">
-          <span className="view-switch-label">Timeline</span>
-
-          <label className="view-switch">
-            <input
-              type="checkbox"
-              checked={viewMode === "lanes"}
-              onChange={(event) =>
-                setViewMode(event.target.checked ? "lanes" : "timeline")
-              }
-            />
-            <span className="view-switch-slider"></span>
-          </label>
-
-          <span className="view-switch-label">Lanes</span>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '500px' }}>
+          <button
+            type="button"
+            className="filter-label"
+            onClick={() => {
+              setSearchText("");
+              setSelectedCategory("all");
+              setSelectedTags([]);
+            }}
+          >
+            Reset (Showing {filteredItems.length} of {rawItems.length} events)
+          </button>
+          <div className="view-switch-row">
+            <span className="view-switch-label">Timeline</span>
+            <label className="view-switch">
+              <input
+                type="checkbox"
+                checked={viewMode === "lanes"}
+                onChange={(event) =>
+                  setViewMode(event.target.checked ? "lanes" : "timeline")
+                }
+              />
+              <span className="view-switch-slider"></span>
+            </label>
+            <span className="view-switch-label">Lanes</span>
+          </div>
         </div>
       </section>
 
