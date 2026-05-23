@@ -145,7 +145,12 @@ Can be left blank.
 
 ### `cardDetailedText`
 
-A concise factual description of the event.
+A concise factual description of the event. Includes Markdown support for paragraphs, headinges, tables, etc. as appropriate.
+
+Example:
+```json
+  "cardDetailedText": "WHO later identified Cases #1 and #2 as having boarded the ship in Ushuaia.\n\n### Key details\n\n| Item | Value |\n|---|---|\n| Location | Ushuaia |\n| Vessel | MV Hondius |\n\n- Passenger travel history included Argentina, Chile, and Uruguay.\n- No testing was performed at embarkation."
+```
 
 Descriptions should:
 

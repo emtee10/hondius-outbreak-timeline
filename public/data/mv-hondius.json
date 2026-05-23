@@ -3,11 +3,22 @@
     "date": "2026-04-01",
     "cardTitle": "MV Hondius departs Ushuaia, Argentina",
     "cardSubtitle": "",
-    "cardDetailedText": "MV Hondius departs Ushuaia, Argentina on 1 April 2026. Oceanwide Expeditions notes that the itinerary is the Atlantic Odyssey voyage, which was scheduled to end in Praia, Cape Verde, on 4 May 2026. They note that guests can book the cruise as Ushuaia-to-Saint Helena, or Ushuaia-to-Cabo Verde. Oceanwide reports that the vessel departed with 175 individuals onboard (114 guests, 61 crew).",
+    "cardDetailedText": "MV Hondius departs Ushuaia, Argentina on 1 April 2026. Oceanwide Expeditions notes that the itinerary is the Atlantic Odyssey voyage, which was scheduled to end in Praia, Cape Verde, on 4 May 2026. They note that guests can book the cruise as Ushuaia-to-Saint Helena, or Ushuaia-to-Cabo Verde.\n\nOceanwide reports that the vessel departed with 175 individuals onboard (114 guests, 61 crew). This includes all individuals currently identified as outbreak cases.",
     "location": "Ushuaia, Argentina",
     "category": "itinerary",
     "tags": [
-      "argentina"
+      "argentina",
+      "case-001",
+      "case-002",
+      "case-003",
+      "case-004",
+      "case-005",
+      "case-006",
+      "case-007",
+      "case-008",
+      "case-009",
+      "case-010",
+      "case-011"
     ],
     "sources": [
       {
@@ -21,38 +32,24 @@
     ]
   },
   {
-    "date": "2026-04-01",
-    "cardTitle": "Case 1 boards MV Hondius",
+    "date": "2026-04-03",
+    "cardTitle": "Case 1 becomes Ill",
     "cardSubtitle": "",
-    "cardDetailedText": "Case #1, an adult male, boarded the ship on 1 April, after more than three months of travel in Argentina, Chile, and Uruguay. ",
-    "location": "Ushuaia, Argentina",
+    "cardDetailedText": "Case #1 develops respiratory symptoms.\n\nSymptom onset date is initially reported as April 6 by WHO. A later *NEJM* article reports onset as April 3 without clarifying the discrepancy.",
+    "location": "",
     "category": "cases",
     "tags": [
       "case-001",
-      "ushuaia"
+      "onset"
     ],
     "sources": [
       {
         "label": "WHO Disease Outbreak Notification, 8 May 2026",
         "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON600"
-      }
-    ]
-  },
-  {
-    "date": "2026-04-01",
-    "cardTitle": "Case 2 boards MV Hondius",
-    "cardSubtitle": "",
-    "cardDetailedText": "Case #2, an adult female and close contact of case #1, is reported as boarding the ship with Case #1.",
-    "location": "Ushuaia, Argentina",
-    "category": "cases",
-    "tags": [
-      "case-002",
-      "ushuaia"
-    ],
-    "sources": [
+      },
       {
-        "label": "WHO Disease Outbreak Notification, 8 May 2026",
-        "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON600"
+        "label": "NEJM: Andes Hantavirus Outbreak on a Cruise Ship, 2026",
+        "url": "https://www.nejm.org/doi/full/10.1056/NEJMc2606496"
       }
     ]
   },
@@ -74,24 +71,6 @@
     ]
   },
   {
-    "date": "2026-04-06",
-    "cardTitle": "Case 1 becomes Ill",
-    "cardSubtitle": "",
-    "cardDetailedText": "Case #1 develops symptoms",
-    "location": "",
-    "category": "cases",
-    "tags": [
-      "case-001",
-      "onset"
-    ],
-    "sources": [
-      {
-        "label": "WHO Disease Outbreak Notification, 8 May 2026",
-        "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON600"
-      }
-    ]
-  },
-    {
     "date": "2026-04-07",
     "cardTitle": "MV Hondius departs South Georgia",
     "cardSubtitle": "",
@@ -215,6 +194,28 @@
     ]
   },
   {
+    "date": "2026-04-21",
+    "cardTitle": "Case 3 becomes Ill",
+    "cardSubtitle": "",
+    "cardDetailedText": "Case #3, an adult male, develops symptoms (shortness of breath, fever).\n\nSymptom onset date is initially reported as April 24 by WHO. A later *NEJM* article reports onset as April 21 without clarifying the discrepancy.",
+    "location": "Saint Helena",
+    "category": "cases",
+    "tags": [
+      "case-003",
+      "onset"
+    ],
+    "sources": [
+      {
+        "label": "WHO Disease Outbreak Notification, 8 May 2026",
+        "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON600"
+      },
+      {
+        "label": "NEJM: Andes Hantavirus Outbreak on a Cruise Ship, 2026",
+        "url": "https://www.nejm.org/doi/full/10.1056/NEJMc2606496"
+      }
+    ]
+  },
+  {
     "date": "2026-04-22",
     "cardTitle": "Case 7 Disembarks MV Hondius",
     "cardSubtitle": "",
@@ -265,24 +266,6 @@
       {
         "label": "Oceanwide Expeditions Press Update, 8 May 2026",
         "url": "https://oceanwide-expeditions.com/press/press-update-m-v-hondius-8-may-2026-19-00-hrs-cet"
-      }
-    ]
-  },
-  {
-    "date": "2026-04-24",
-    "cardTitle": "Case 3 becomes Ill",
-    "cardSubtitle": "",
-    "cardDetailedText": "Case #3, an adult male, develops symptoms on 24 April.",
-    "location": "Saint Helena",
-    "category": "cases",
-    "tags": [
-      "case-003",
-      "onset"
-    ],
-    "sources": [
-      {
-        "label": "WHO Disease Outbreak Notification, 8 May 2026",
-        "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON600"
       }
     ]
   },
@@ -490,18 +473,23 @@
   },
   {
     "date": "2026-05-02",
-    "cardTitle": "Hantavirus Identified",
+    "cardTitle": "Hantavirus Confirmed by RT-PCR",
     "cardSubtitle": "",
-    "cardDetailedText": "PCR testing (from Case #3) confirms hantavirus as the causative agent.",
+    "cardDetailedText": "Pan-hantavirus RT-PCR testing (from Case #3) confirms hantavirus as the causative agent.",
     "location": "",
     "category": "outbreak",
     "tags": [
-      "case-003"
+      "case-003",
+      "labs"
     ],
     "sources": [
       {
         "label": "WHO Disease Outbreak Notification, 8 May 2026",
         "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON600"
+      },
+      {
+        "label": "NEJM: Andes Hantavirus Outbreak on a Cruise Ship, 2026",
+        "url": "https://www.nejm.org/doi/full/10.1056/NEJMc2606496"
       }
     ]
   },
@@ -558,6 +546,46 @@
     ]
   },
   {
+    "date": "2026-05-05",
+    "cardTitle": "Andes virus confirmed by RT-PCR",
+    "cardSubtitle": "",
+    "cardDetailedText": "Specimens from Case #2 and Case #3 are confirmed positive for Andes virus via sequencing at the National Institute for Communicable Diseases in South Africa.",
+    "location": "",
+    "category": "cases",
+    "tags": [
+      "andes-virus",
+      "case-002",
+      "case-003",
+      "labs"
+    ],
+    "sources": [
+      {
+        "label": "NEJM: Andes Hantavirus Outbreak on a Cruise Ship, 2026",
+        "url": "https://www.nejm.org/doi/full/10.1056/NEJMc2606496"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-05",
+    "cardTitle": "Case #7 confirmed positive for Andes virus",
+    "cardSubtitle": "",
+    "cardDetailedText": "Specimens from Case #7 are confirmed positive for Andes virus.",
+    "location": "Switzerland",
+    "category": "cases",
+    "tags": [
+      "andes-virus",
+      "case-007",
+      "labs",
+      "switzerland"
+    ],
+    "sources": [
+      {
+        "label": "NEJM: Andes Hantavirus Outbreak on a Cruise Ship, 2026",
+        "url": "https://www.nejm.org/doi/full/10.1056/NEJMc2606496"
+      }
+    ]
+  },   
+  {
     "date": "2026-05-06",
     "cardTitle": "WHO confirms Andes virus",
     "cardSubtitle": "",
@@ -579,7 +607,7 @@
     "date": "2026-05-06",
     "cardTitle": "Multiple passengers are evacuated to the Netherlands",
     "cardSubtitle": "",
-    "cardDetailedText": "On 6 May, three individuals were transferred by medicalized aircraft from m/v Hondius to the Netherlands. Two listed as guests and one listed as crew. Case #5 is among those evacuated.",
+    "cardDetailedText": "On 6 May, three individuals were transferred by medicalized aircraft from *MV Hondius* to the Netherlands. Two listed as guests and one listed as crew. Case #5 is among those evacuated.",
     "location": "",
     "category": "cases",
     "tags": [
@@ -633,6 +661,26 @@
     ]
   },
   {
+    "date": "2026-05-07",
+    "cardTitle": "Case #5 confirmed positive for Andes virus",
+    "cardSubtitle": "",
+    "cardDetailedText": "Specimens from Case #5 are confirmed positive for Andes virus.",
+    "location": "The Netherlands",
+    "category": "cases",
+    "tags": [
+      "andes-virus",
+      "case-005",
+      "labs",
+      "the-netherlands"
+    ],
+    "sources": [
+      {
+        "label": "NEJM: Andes Hantavirus Outbreak on a Cruise Ship, 2026",
+        "url": "https://www.nejm.org/doi/full/10.1056/NEJMc2606496"
+      }
+    ]
+  }, 
+  {
     "date": "2026-05-08",
     "cardTitle": "WHO Reports 8 cases, 3 deaths",
     "cardSubtitle": "",
@@ -648,19 +696,46 @@
     ]
   },
   {
+    "date": "2026-05-08",
+    "cardTitle": "Case #6 confirmed positive for Andes virus",
+    "cardSubtitle": "",
+    "cardDetailedText": "Specimens from Case #6 are confirmed positive for Andes virus.",
+    "location": "The Netherlands",
+    "category": "cases",
+    "tags": [
+      "andes-virus",
+      "case-006",
+      "labs",
+      "the-netherlands"
+    ],
+    "sources": [
+      {
+        "label": "NEJM: Andes Hantavirus Outbreak on a Cruise Ship, 2026",
+        "url": "https://www.nejm.org/doi/full/10.1056/NEJMc2606496"
+      }
+    ]
+  },  
+  {
     "date": "2026-05-10",
     "cardTitle": "MV Hondius Arrives in Canary Islands",
     "cardSubtitle": "",
-    "cardDetailedText": "On 10 May, the ship arrives in the Canary Islands, Spain, where disembarkation began.  Passengers and most of the crew are repatriated from the Canary Islands to their respective residence countries or transit points via specially arranged non-commercial flights, with WHO and partners supporting the disembarkation process.",
-    "location": "Canary Islands, Spain",
+    "cardDetailedText": "On 10 May, the ship arrives in the Canary Islands, Spain, where disembarkation began.  Passengers and most of the crew are repatriated from the Canary Islands to their respective residence countries or transit points via specially arranged non-commercial flights, with WHO and partners supporting the disembarkation process. Case #9, Case #10, and Case #11 depart the *MV Hondius* at this point.",
+    "location": "Tenerife, Canary Islands, Spain",
     "category": "itinerary",
     "tags": [
-      "canary-islands"
+      "canary-islands",
+      "case-009",
+      "case-010",
+      "case-011"
     ],
     "sources": [
       {
         "label": "WHO Disease Outbreak Notification, 13 May 2026",
         "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON601"
+      },
+      {
+        "label": "NEJM: Andes Hantavirus Outbreak on a Cruise Ship, 2026",
+        "url": "https://www.nejm.org/doi/full/10.1056/NEJMc2606496"
       }
     ]
   },
@@ -703,6 +778,24 @@
     ]
   },
   {
+    "date": "2026-05-10",
+    "cardTitle": "Case #9 Becomes Ill",
+    "cardSubtitle": "",
+    "cardDetailedText": "",
+    "location": "",
+    "category": "cases",
+    "tags": [
+      "case-009",
+      "onset"
+    ],
+    "sources": [
+      {
+        "label": "NEJM: Andes Hantavirus Outbreak on a Cruise Ship, 2026",
+        "url": "https://www.nejm.org/doi/full/10.1056/NEJMc2606496"
+      }
+    ]
+  },
+  {
     "date": "2026-05-11",
     "cardTitle": "MV Hondius Departs Canary Islands",
     "cardSubtitle": "",
@@ -716,6 +809,44 @@
       {
         "label": "WHO Disease Outbreak Notification, 13 May 2026",
         "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON601"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-08",
+    "cardTitle": "Case #9 and Case #10 confirmed positive for Andes virus",
+    "cardSubtitle": "",
+    "cardDetailedText": "Specimens from Case #9 and Case #10 are confirmed positive for Andes virus.",
+    "location": "",
+    "category": "cases",
+    "tags": [
+      "andes-virus",
+      "case-009",
+      "case-010",
+      "labs"
+    ],
+    "sources": [
+      {
+        "label": "NEJM: Andes Hantavirus Outbreak on a Cruise Ship, 2026",
+        "url": "https://www.nejm.org/doi/full/10.1056/NEJMc2606496"
+      }
+    ]
+  },  
+  {
+    "date": "2026-05-12",
+    "cardTitle": "Case #10 Becomes Ill",
+    "cardSubtitle": "",
+    "cardDetailedText": "",
+    "location": "Spain",
+    "category": "cases",
+    "tags": [
+      "case-010",
+      "onset"
+    ],
+    "sources": [
+      {
+        "label": "NEJM: Andes Hantavirus Outbreak on a Cruise Ship, 2026",
+        "url": "https://www.nejm.org/doi/full/10.1056/NEJMc2606496"
       }
     ]
   },
