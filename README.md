@@ -19,6 +19,8 @@ This project aims to create a structured, source-based chronology of events rela
 * public health response actions
 * international coordination
 
+The timeline can be viewed as a single stream of events (*Timeline* view) or as parallel events streams sorted by category (*Lanes* view), togglable from the UI. The UI additionally offers event filtering by category and tag, as well as a text search bar.
+
 The timeline is intended to support:
 
 * public health analysis
