@@ -113,7 +113,8 @@
     "location": "Tristan da Cunha, British Overseas Territory",
     "category": "itinerary",
     "tags": [
-      "tristan-da-cunha"
+      "tristan-da-cunha",
+      "disembarkation"
     ],
     "sources": [
       {
@@ -131,7 +132,8 @@
     "category": "cases",
     "tags": [
       "case-008",
-      "tristan-da-cunha"
+      "tristan-da-cunha",
+      "disembarkation"
     ],
     "sources": [
       {
@@ -184,7 +186,8 @@
     "tags": [
       "case-001",
       "case-002",
-      "saint-helena"
+      "saint-helena",
+      "disembarkation"
     ],
     "sources": [
       {
@@ -202,7 +205,8 @@
     "category": "cases",
     "tags": [
       "case-003",
-      "onset"
+      "onset",
+      "saint-helena"
     ],
     "sources": [
       {
@@ -224,7 +228,8 @@
     "category": "cases",
     "tags": [
       "case-007",
-      "saint-helena"
+      "saint-helena",
+      "disembarkation"
     ],
     "sources": [
       {
@@ -333,7 +338,9 @@
     "category": "cases",
     "tags": [
       "ascension-island",
-      "case-003"
+      "case-003",
+      "disembarkation",
+      "evacuation"
     ],
     "sources": [
       {
@@ -352,7 +359,9 @@
     "tags": [
       "case-003",
       "ascension-island",
-      "south-africa"
+      "south-africa",
+      "disembarkation",
+      "evacuation"
     ],
     "sources": [
       {
@@ -519,9 +528,7 @@
     "location": "Praia, Cabo Verde",
     "category": "cases",
     "tags": [
-      "cabo-verde",
-      "case-004",
-      "death"
+      "cabo-verde"
     ],
     "sources": [
       {
@@ -537,7 +544,9 @@
     "cardDetailedText": "WHO reports 7 cases (2 confirmed, 5 suspected) and 3 deaths.",
     "location": "",
     "category": "outbreak",
-    "tags": [],
+    "tags": [
+      "who"
+    ],
     "sources": [
       {
         "label": "WHO Disease Outbreak Notification, 4 May 2026",
@@ -553,10 +562,10 @@
     "location": "",
     "category": "cases",
     "tags": [
-      "andes-virus",
       "case-002",
       "case-003",
-      "labs"
+      "labs",
+      "south-africa"
     ],
     "sources": [
       {
@@ -573,7 +582,6 @@
     "location": "Switzerland",
     "category": "cases",
     "tags": [
-      "andes-virus",
       "case-007",
       "labs",
       "switzerland"
@@ -584,7 +592,7 @@
         "url": "https://www.nejm.org/doi/full/10.1056/NEJMc2606496"
       }
     ]
-  },   
+  },
   {
     "date": "2026-05-06",
     "cardTitle": "WHO confirms Andes virus",
@@ -593,8 +601,7 @@
     "location": "",
     "category": "outbreak",
     "tags": [
-      "who",
-      "andes-virus"
+      "who"
     ],
     "sources": [
       {
@@ -612,7 +619,8 @@
     "category": "cases",
     "tags": [
       "case-005",
-      "the-netherlands"
+      "the-netherlands",
+      "evacuation"
     ],
     "sources": [
       {
@@ -651,7 +659,8 @@
     "category": "cases",
     "tags": [
       "case-006",
-      "the-netherlands"
+      "the-netherlands",
+      "evacuation"
     ],
     "sources": [
       {
@@ -668,7 +677,6 @@
     "location": "The Netherlands",
     "category": "cases",
     "tags": [
-      "andes-virus",
       "case-005",
       "labs",
       "the-netherlands"
@@ -679,7 +687,7 @@
         "url": "https://www.nejm.org/doi/full/10.1056/NEJMc2606496"
       }
     ]
-  }, 
+  },
   {
     "date": "2026-05-08",
     "cardTitle": "WHO Reports 8 cases, 3 deaths",
@@ -687,7 +695,9 @@
     "cardDetailedText": "WHO reports 8 cases (6 confirmed, 2 probable) and 3 deaths.",
     "location": "",
     "category": "outbreak",
-    "tags": [],
+    "tags": [
+      "who"
+    ],
     "sources": [
       {
         "label": "WHO Disease Outbreak Notification, 8 May 2026",
@@ -703,7 +713,6 @@
     "location": "The Netherlands",
     "category": "cases",
     "tags": [
-      "andes-virus",
       "case-006",
       "labs",
       "the-netherlands"
@@ -714,7 +723,7 @@
         "url": "https://www.nejm.org/doi/full/10.1056/NEJMc2606496"
       }
     ]
-  },  
+  },
   {
     "date": "2026-05-10",
     "cardTitle": "MV Hondius Arrives in Canary Islands",
@@ -726,7 +735,8 @@
       "canary-islands",
       "case-009",
       "case-010",
-      "case-011"
+      "case-011",
+      "disembarkation"
     ],
     "sources": [
       {
@@ -747,7 +757,10 @@
     "location": "Tenerife, Canary Islands, Spain",
     "category": "contacts",
     "tags": [
-      "spain"
+      "spain",
+      "disembarkation",
+      "contact-tracing",
+      "who"
     ],
     "sources": [
       {
@@ -764,7 +777,8 @@
     "location": "British Columbia, Canada",
     "category": "contacts",
     "tags": [
-      "canada"
+      "canada",
+      "contact-tracing"
     ],
     "sources": [
       {
@@ -803,7 +817,8 @@
     "location": "Tenerife, Canary Islands, Spain",
     "category": "itinerary",
     "tags": [
-      "canary-islands"
+      "canary-islands",
+      "the-netherlands"
     ],
     "sources": [
       {
@@ -820,7 +835,6 @@
     "location": "",
     "category": "cases",
     "tags": [
-      "andes-virus",
       "case-009",
       "case-010",
       "labs"
@@ -831,7 +845,7 @@
         "url": "https://www.nejm.org/doi/full/10.1056/NEJMc2606496"
       }
     ]
-  },  
+  },
   {
     "date": "2026-05-12",
     "cardTitle": "Case #10 Becomes Ill",
@@ -841,7 +855,8 @@
     "category": "cases",
     "tags": [
       "case-010",
-      "onset"
+      "onset",
+      "spain"
     ],
     "sources": [
       {
@@ -857,7 +872,9 @@
     "cardDetailedText": "WHO reports 11 cases (8 confirmed, 2 probable, 1 inconclusive) and 3 deaths.",
     "location": "",
     "category": "outbreak",
-    "tags": [],
+    "tags": [
+      "who"
+    ],
     "sources": [
       {
         "label": "WHO Disease Outbreak Notification, 13 May 2026",
@@ -873,7 +890,11 @@
     "location": "Canada",
     "category": "contacts",
     "tags": [
-      "canada"
+      "canada",
+      "saint-helena",
+      "south-africa",
+      "the-netherlands",
+      "contact-tracing"
     ],
     "sources": [
       {
@@ -895,7 +916,9 @@
     "category": "cases",
     "tags": [
       "case-011",
-      "canada"
+      "canada",
+      "onset",
+      "phac"
     ],
     "sources": [
       {
@@ -915,7 +938,9 @@
     "cardDetailedText": "WHO reports 10 cases (8 confirmed, 2 probable) and 3 deaths. One inconclusive case from the previous update tested negative and is no longer considered a case.",
     "location": "",
     "category": "outbreak",
-    "tags": [],
+    "tags": [
+      "who"
+    ],
     "sources": [
       {
         "label": "CIPRAP: Hantavirus outbreak reduced to 10 cases as ship passengers return to home countries, 15 May 2026",
@@ -932,7 +957,9 @@
     "category": "cases",
     "tags": [
       "case-011",
-      "canada"
+      "canada",
+      "labs",
+      "phac"
     ],
     "sources": [
       {
