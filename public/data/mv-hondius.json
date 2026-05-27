@@ -957,5 +957,44 @@
         "url": "https://www.cbc.ca/news/world/hantavirus-cruise-ship-netherlands-9.7203130"
       }
     ]
+  },
+  {
+    "date": "2026-05-22",
+    "cardTitle": "WHO confirms 12th outbreak-associated case",
+    "cardSubtitle": "",
+    "cardDetailedText": "The World Health Organization reports an additional case in a *MV Hondius* crew member who disembarked in Tenerife and was subsequently repatriated to the Netherlands where they have been in isolation.",
+    "location": "The Netherlands",
+    "category": "cases",
+    "tags": [
+      "canary-islands",
+      "case-012",
+      "the-netherlands",
+      "who"
+    ],
+    "sources": [
+      {
+        "label": "NBC News: Hantavirus cases linked to cruise ship rise to 12 after crew member tests positive, 22 May 2026",
+        "url": "https://www.nbcnews.com/health/health-news/hantavirus-cases-linked-cruise-ship-rise-12-crew-member-tests-positive-rcna346481"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-27",
+    "cardTitle": "WHO confirms 13th outbreak-associated case",
+    "cardSubtitle": "",
+    "cardDetailedText": "The World Health Organization reports an additional case in a Spanish national who was a cruise passenger. The individual is reported as having been in isolation.",
+    "location": "Spain",
+    "category": "cases",
+    "tags": [
+      "case-013",
+      "spain",
+      "who"
+    ],
+    "sources": [
+      {
+        "label": "NBC News: Hantavirus cases from cruise outbreak rise to 13 following new case in Spain, WHO says, 27 May 2026",
+        "url": "https://www.nbcnews.com/news/us-news/hantavirus-cases-cruise-outbreak-rise-13-new-case-spain-says-rcna347074"
+      }
+    ]
   }
 ]
