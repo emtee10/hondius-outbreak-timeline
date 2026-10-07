@@ -1,5 +1,7 @@
 # *MV Hondius* Outbreak Timeline
 
+⚠️ **Note:** This project is archived and is no longer receiving updates. ⚠️
+
 An interactive, community-maintained timeline documenting the 2026 *MV Hondius* hantavirus outbreak and related public health response activities.
 
 **Live timeline:**
